@@ -28,8 +28,8 @@
 
 <section class="intro" id="about">
   <div>
-    <h1>Aerospace engineering, built and flown.</h1>
-    <p>MEng Aerospace Engineering student at the University of Sheffield, currently on placement as a Software &amp; Controls Engineer at Mercedes AMG High Performance Powertrains. This is a record of the hands-on projects — VTOL aircraft, rocketry, robotics and control systems — built alongside the degree.</p>
+    <h1>Engineering Portfolio</h1>
+    <p>MEng Aerospace Engineering student at the University of Sheffield. Recently completed a 12-month placement as a Software &amp; Controls Engineer at Mercedes AMG High Performance Powertrains.</p>
   </div>
   <div class="meta">
     <div><strong>Based in</strong> Sheffield, UK</div>
@@ -41,25 +41,23 @@
 
 <div class="intro-rule"><hr></div>
 
-<!-- ============ HERO / LEAD PROJECT ============ -->
-
-<div class="hero">
-  <img src="images/qp-hero-field.jpg" alt="VTOL Quadplane resting on a stone wall after a test flight">
-  <div class="hero-block">
-    <div class="doc-no">PRJ.01 — LEAD PROJECT</div>
-    <h2>VTOL Quadplane</h2>
-    <div class="role">Avionics Flight Systems Lead · Third-Year Group Project, University of Sheffield</div>
-  </div>
-</div>
-
 <main class="wrap" id="projects">
 
   <section class="project" id="quadplane">
+    <div class="project-head">
+      <div class="titles">
+        <h3>VTOL Quadplane</h3>
+        <div class="role">Avionics Flight Systems Lead · Third-Year Group Project, University of Sheffield</div>
+      </div>
+      <div class="doc-no">PRJ.01</div>
+    </div>
+
     <p class="project-lede">
       Tasked with designing and manufacturing a Vertical Take-Off and Landing (VTOL) Quadplane intended for reconnaissance in hazardous environments. As Avionics Flight Systems Lead, responsible for the electronics architecture, wiring, and flight testing — the aircraft flew successfully at a local gliding club under both manual and autonomous control.
     </p>
 
-    <div class="photo-grid">
+    <div class="photo-grid cols-2">
+      <figure><img src="images/qp-hero-field.jpg" alt="VTOL Quadplane resting on a stone wall after a test flight" data-lightbox data-caption="Resting on a stone wall after a test flight"><figcaption>Post-flight, in the field</figcaption></figure>
       <figure><img src="images/qp-wiring-board.jpg" alt="Avionics test board with motors, ESCs and flight controller wired up" data-lightbox data-caption="Avionics test board — motors, ESCs and flight controller wired ahead of integration"><figcaption>Avionics integration board</figcaption></figure>
       <figure><img src="images/qp-team.jpg" alt="Team holding the assembled Quadplane wings and fuselage outdoors" data-lightbox data-caption="The build team with the assembled airframe"><figcaption>Build team, assembled airframe</figcaption></figure>
       <figure><img src="images/qp-in-flight.jpg" alt="The Quadplane in flight over a grass field" data-lightbox data-caption="In flight during autonomous loiter testing"><figcaption>In-flight, autonomous loiter</figcaption></figure>
@@ -104,6 +102,15 @@
         <img src="images/qp-cad-exploded.jpg" alt="Exploded CAD view of the airframe showing wings, fuselage and tail assembly" data-lightbox data-caption="Exploded assembly view of the airframe">
         <figcaption>Exploded assembly view — wings, plywood fuselage former and tail unit, designed as a digital twin before manufacture.</figcaption>
       </figure>
+    </div>
+
+    <div class="subsection-label">Flight footage</div>
+    <div class="video-block">
+      <video controls preload="metadata" poster="images/qp-video-poster.jpg">
+        <source src="video/quadplane-flight.mp4" type="video/mp4">
+        Your browser doesn't support embedded video — you can <a href="video/quadplane-flight.mp4">download the clip directly</a> instead.
+      </video>
+      <p class="video-caption">Full test flight — pre-flight checks, onboard FPV footage through hover and transition, and an external tracking shot during loiter.</p>
     </div>
 
     <div class="subsection-label">Flight data analysis</div>
@@ -178,179 +185,326 @@
     </div>
   </section>
 
-  <!-- ============ OTHER PROJECTS INDEX ============ -->
+  <!-- ============ QUADCOPTER DRONE ============ -->
 
-  <section class="index-section">
-    <h2 class="index-heading">Other projects</h2>
-    <p class="index-subhead">Further work spanning robotics, rocketry, control systems and student leadership.</p>
-
-    <!-- Quadcopter Drone -->
-    <div class="index-entry" id="quadcopter">
+  <section class="project" id="quadcopter">
+    <div class="project-head">
+      <div class="titles">
+        <h3>Quadcopter Drone</h3>
+        <div class="role">Integration Lead · Second-Year Group Project, University of Sheffield · Team of 6</div>
+      </div>
       <div class="doc-no">PRJ.03</div>
-      <div class="thumb-stack">
-        <img src="images/quad-cad.jpg" alt="CAD render of the quadcopter with generative-design legs" data-lightbox data-caption="CAD render, generative-design legs">
-        <img src="images/quad-built.jpg" alt="The built quadcopter drone with pink propellers" data-lightbox data-caption="The built quadcopter">
-      </div>
-      <div class="body">
-        <h4>Quadcopter Drone — Integration Lead</h4>
-        <div class="role">Second-Year Group Project · Team of 6</div>
-        <div class="mini-spec">
-          <div><span>What</span>
-            <ul><li>Recon quadcopter designed to traverse an obstacle course</li><li>Technical documentation and design presentation</li></ul>
-          </div>
-          <div><span>How</span>
-            <ul><li>Generative design in Fusion 360 for 3D-printed legs</li><li>Full CAD assembly; soldered electronics</li></ul>
-          </div>
-          <div><span>Results</span>
-            <ul><li>Impressive lateral stability, full course completion</li><li>First-class mark for the module</li></ul>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <!-- UKSEDS -->
-    <div class="index-entry" id="rocketry">
+    <p class="project-lede">
+      A recon quadcopter designed by a six-person team to traverse an obstacle course, with generative design used to produce extremely light, robust legs for the airframe.
+    </p>
+
+    <div class="photo-grid cols-2">
+      <figure><img src="images/quad-cad.jpg" alt="CAD render of the quadcopter with generative-design legs" data-lightbox data-caption="CAD render, generative-design legs"><figcaption>CAD render, generative-design legs</figcaption></figure>
+      <figure><img src="images/quad-built.jpg" alt="The built quadcopter drone with pink propellers" data-lightbox data-caption="The built quadcopter"><figcaption>Built and ready to fly</figcaption></figure>
+    </div>
+
+    <div class="spec-block">
+      <div class="spec-col">
+        <h4>What</h4>
+        <ul>
+          <li>Recon quadcopter designed to traverse an obstacle course</li>
+          <li>Technical documentation and design presentation</li>
+        </ul>
+      </div>
+      <div class="spec-col">
+        <h4>How</h4>
+        <ul>
+          <li>Generative design in Fusion 360 for 3D-printed legs</li>
+          <li>Full CAD assembly; soldered electronics</li>
+        </ul>
+      </div>
+      <div class="spec-col">
+        <h4>Results</h4>
+        <ul>
+          <li>Impressive lateral stability, full course completion</li>
+          <li>First-class mark for the module</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ UKSEDS ROCKETRY ============ -->
+
+  <section class="project" id="rocketry">
+    <div class="project-head">
+      <div class="titles">
+        <h3>UKSEDS National Rocketry Competition</h3>
+        <div class="role">Design Team · Extracurricular Group Project, University of Sheffield</div>
+      </div>
       <div class="doc-no">PRJ.04</div>
-      <div class="thumb-stack">
-        <img src="images/rocket-launch.jpg" alt="Rocket being held ready for launch" data-lightbox data-caption="Ready for launch">
-        <img src="images/rocket-team.jpg" alt="Team photo after the rocket launch" data-lightbox data-caption="The team after launch">
+    </div>
+
+    <p class="project-lede">
+      A one-stage rocket designed and manufactured to strict competition specifications, launched at Midlands Rocketry Club against other UK university teams.
+    </p>
+
+    <div class="photo-grid">
+      <figure><img src="images/rocket-cad-annotated.jpg" alt="Annotated CAD render of the rocket design" data-lightbox data-caption="Annotated rocket CAD design"><figcaption>Rocket design, CAD</figcaption></figure>
+      <figure><img src="images/rocket-launch.jpg" alt="Rocket being held ready for launch" data-lightbox data-caption="Ready for launch"><figcaption>Ready for launch</figcaption></figure>
+      <figure><img src="images/rocket-team.jpg" alt="Team photo after the rocket launch" data-lightbox data-caption="The team after launch"><figcaption>The team, post-launch</figcaption></figure>
+    </div>
+
+    <div class="spec-block">
+      <div class="spec-col">
+        <h4>What</h4>
+        <ul>
+          <li>Rocket designed and manufactured to strict specifications</li>
+          <li>Launched at Midlands Rocketry Club</li>
+        </ul>
       </div>
-      <div class="body">
-        <h4>UKSEDS National Rocketry Competition — Design Team</h4>
-        <div class="role">Extracurricular Group Project</div>
-        <div class="mini-spec">
-          <div><span>What</span>
-            <ul><li>Rocket designed and manufactured to strict specifications</li><li>Launched at Midlands Rocketry Club</li></ul>
-          </div>
-          <div><span>How</span>
-            <ul><li>One-stage rocket designed in Fusion 360</li><li>Manufactured with 3D printing and workshop tools</li></ul>
-          </div>
-          <div><span>Results</span>
-            <ul><li>2nd place nationally</li><li>Successful flight and recovery (avionics failed — no telemetry)</li></ul>
-          </div>
-        </div>
+      <div class="spec-col">
+        <h4>How</h4>
+        <ul>
+          <li>One-stage rocket designed in Fusion 360</li>
+          <li>Manufactured with 3D printing and workshop tools</li>
+        </ul>
+      </div>
+      <div class="spec-col">
+        <h4>Results</h4>
+        <ul>
+          <li>2nd place nationally</li>
+          <li>Successful flight and recovery</li>
+        </ul>
       </div>
     </div>
 
-    <!-- Autonomous Robot -->
-    <div class="index-entry" id="robot">
+    <div class="outcome-note">
+      <span class="mark">Outcome —</span>
+      <span>The onboard avionics failed during flight, so no telemetry was recovered — the result above is based on the visual flight and physical recovery of the rocket alone.</span>
+    </div>
+  </section>
+
+  <!-- ============ AUTONOMOUS ROBOT ============ -->
+
+  <section class="project" id="robot">
+    <div class="project-head">
+      <div class="titles">
+        <h3>Autonomous Robot</h3>
+        <div class="role">Second-Year Group Project, University of Sheffield · Team of 3</div>
+      </div>
       <div class="doc-no">PRJ.05</div>
-      <div class="thumb-stack">
-        <img src="images/robot-annotated.jpg" alt="Annotated photo of the robot showing sensors and motors" data-lightbox data-caption="Robot with sensors and drivetrain labelled">
-        <img src="images/robot-top.jpg" alt="Top-down view of the robot's electronics" data-lightbox data-caption="Electronics layout, top-down">
-      </div>
-      <div class="body">
-        <h4>Autonomous Robot</h4>
-        <div class="role">Second-Year Group Project · Team of 3</div>
-        <div class="mini-spec">
-          <div><span>What</span>
-            <ul><li>Two-wheeled robot programmed to avoid obstacles and reach a beacon</li></ul>
-          </div>
-          <div><span>How</span>
-            <ul><li>Programmed the microcontroller in C</li><li>Encoders for precise steering control</li></ul>
-          </div>
-          <div><span>Results</span>
-            <ul><li>100% in the practical demonstration</li><li>First-class mark for the project</li></ul>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <!-- Project Kestrel -->
-    <div class="index-entry" id="kestrel">
+    <p class="project-lede">
+      A two-wheeled robot programmed to autonomously avoid obstacles, navigate to an infrared beacon, and stop precisely on arrival.
+    </p>
+
+    <div class="photo-grid">
+      <figure><img src="images/robot-annotated.jpg" alt="Annotated photo of the robot showing sensors and motors" data-lightbox data-caption="Robot with sensors and drivetrain labelled"><figcaption>Sensors and drivetrain, labelled</figcaption></figure>
+      <figure><img src="images/robot-course.jpg" alt="The obstacle course used for the robot demonstration" data-lightbox data-caption="Obstacle course for the demonstration"><figcaption>Obstacle course, demonstration</figcaption></figure>
+      <figure><img src="images/robot-top.jpg" alt="Top-down view of the robot's electronics" data-lightbox data-caption="Electronics layout, top-down"><figcaption>Electronics, top-down</figcaption></figure>
+    </div>
+
+    <div class="spec-block">
+      <div class="spec-col">
+        <h4>What</h4>
+        <ul>
+          <li>Two-wheeled robot programmed to avoid obstacles and reach a beacon</li>
+        </ul>
+      </div>
+      <div class="spec-col">
+        <h4>How</h4>
+        <ul>
+          <li>Programmed the microcontroller in C</li>
+          <li>Encoders for precise steering control</li>
+        </ul>
+      </div>
+      <div class="spec-col">
+        <h4>Results</h4>
+        <ul>
+          <li>100% in the practical demonstration</li>
+          <li>First-class mark for the project</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECT KESTREL ============ -->
+
+  <section class="project" id="kestrel">
+    <div class="project-head">
+      <div class="titles">
+        <h3>Project Kestrel</h3>
+        <div class="role">Structures Team · Extracurricular Group Project, University of Sheffield</div>
+      </div>
       <div class="doc-no">PRJ.06</div>
-      <div class="thumb-stack">
-        <img src="images/kestrel-frame-cad.jpg" alt="CAD render of the Kestrel airframe" data-lightbox data-caption="Kestrel airframe, CAD render">
-        <img src="images/kestrel-payload-cad.jpg" alt="CAD render of the rotating payload release mechanism" data-lightbox data-caption="Rotating payload release mechanism">
-      </div>
-      <div class="body">
-        <h4>Project Kestrel — Structures Team</h4>
-        <div class="role">Extracurricular Group Project</div>
-        <div class="mini-spec">
-          <div><span>What</span>
-            <ul><li>2.5m wingspan VTOL drone for vaccine delivery to remote areas</li><li>Novel rotating payload release using a single servo</li></ul>
-          </div>
-          <div><span>How</span>
-            <ul><li>Payload components designed and assembled in Fusion 360</li><li>Generative design for a small training-programme quadcopter</li></ul>
-          </div>
-          <div><span>Results</span>
-            <ul><li>Functional payload release design using just one servo</li></ul>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <!-- Induction Motor -->
-    <div class="index-entry" id="motor">
-      <div class="doc-no">PRJ.07</div>
-      <div class="thumb-stack">
-        <img class="wide" src="images/motor-simulink.jpg" alt="Simulink block diagram of the induction motor model" data-lightbox data-caption="Simulink model of the induction motor">
+    <p class="project-lede">
+      A 2.5m wingspan VTOL drone concept for delivering medical supplies to remote areas, featuring a novel rotating payload release mechanism actuated by a single servo.
+    </p>
+
+    <div class="photo-grid">
+      <figure><img src="images/kestrel-frame-cad.jpg" alt="CAD render of the Kestrel airframe" data-lightbox data-caption="Kestrel airframe, CAD render"><figcaption>Airframe, CAD render</figcaption></figure>
+      <figure><img src="images/kestrel-payload-cad.jpg" alt="CAD render of the rotating payload release mechanism" data-lightbox data-caption="Rotating payload release mechanism"><figcaption>Payload release mechanism</figcaption></figure>
+      <figure><img src="images/kestrel-quad-cad.jpg" alt="CAD render of the small training-programme quadcopter" data-lightbox data-caption="Small quadcopter, designed as part of the training programme"><figcaption>Training-programme quadcopter</figcaption></figure>
+    </div>
+
+    <div class="spec-block">
+      <div class="spec-col">
+        <h4>What</h4>
+        <ul>
+          <li>2.5m wingspan VTOL drone for vaccine delivery to remote areas</li>
+          <li>Novel rotating payload release using a single servo</li>
+        </ul>
       </div>
-      <div class="body">
-        <h4>Induction Motor Design Project</h4>
+      <div class="spec-col">
+        <h4>How</h4>
+        <ul>
+          <li>Payload components designed and assembled in Fusion 360</li>
+          <li>Generative design for a small training-programme quadcopter</li>
+        </ul>
+      </div>
+      <div class="spec-col">
+        <h4>Results</h4>
+        <ul>
+          <li>Functional payload release design using just one servo</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INDUCTION MOTOR ============ -->
+
+  <section class="project" id="motor">
+    <div class="project-head">
+      <div class="titles">
+        <h3>Induction Motor Design Project</h3>
         <div class="role">Individual Project</div>
-        <div class="mini-spec">
-          <div><span>What</span>
-            <ul><li>Squirrel-cage induction motor with a soft-starting scheme</li><li>Detailed technical report on calculations and design process</li></ul>
-          </div>
-          <div><span>How</span>
-            <ul><li>Modelled the motor in Simulink</li><li>MATLAB function to generate the three phases</li></ul>
-          </div>
-          <div><span>Results</span>
-            <ul><li>88% mark; bronze medal for 3rd-best grade in cohort</li></ul>
-          </div>
-        </div>
       </div>
+      <div class="doc-no">PRJ.07</div>
     </div>
 
-    <!-- Personal Robotics -->
-    <div class="index-entry" id="personal-robotics">
-      <div class="doc-no">PRJ.08</div>
-      <div class="thumb-stack">
-        <img src="images/personal-arm-cad.jpg" alt="CAD render of a robotic arm" data-lightbox data-caption="Robotic arm, CAD render">
-        <img src="images/personal-actuator-built.jpg" alt="3D-printed planetary actuator prototype" data-lightbox data-caption="Printed planetary actuator prototype">
+    <p class="project-lede">
+      A squirrel-cage induction motor modelled with a soft-starting scheme, with a full technical report covering the underlying calculations and design process.
+    </p>
+
+    <div class="photo-grid cols-1">
+      <figure><img src="images/motor-simulink.jpg" alt="Simulink block diagram of the induction motor model" data-lightbox data-caption="Simulink model of the induction motor"><figcaption>Simulink model of the motor</figcaption></figure>
+    </div>
+
+    <div class="spec-block">
+      <div class="spec-col">
+        <h4>What</h4>
+        <ul>
+          <li>Squirrel-cage induction motor with a soft-starting scheme</li>
+          <li>Detailed technical report on calculations and design process</li>
+        </ul>
       </div>
-      <div class="body">
-        <h4>Personal Robotics Project</h4>
+      <div class="spec-col">
+        <h4>How</h4>
+        <ul>
+          <li>Modelled the motor in Simulink</li>
+          <li>MATLAB function to generate the three phases</li>
+        </ul>
+      </div>
+      <div class="spec-col">
+        <h4>Results</h4>
+        <ul>
+          <li>88% mark for the project</li>
+          <li>Bronze medal for 3rd-best grade in cohort</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PERSONAL ROBOTICS ============ -->
+
+  <section class="project" id="personal-robotics">
+    <div class="project-head">
+      <div class="titles">
+        <h3>Personal Robotics Project</h3>
         <div class="role">Independent Project</div>
-        <div class="mini-spec">
-          <div><span>What</span>
-            <ul><li>Servo-actuated robotic arm</li><li>Planetary robotic actuator, aimed at future integration into a larger system</li></ul>
-          </div>
-          <div><span>How</span>
-            <ul><li>All parts designed in Fusion 360, 3D printed</li><li>Combined with electronics and an Arduino for control</li></ul>
-          </div>
-          <div><span>Results</span>
-            <ul><li>Working prototype and proof of concept for the gearbox</li><li>Identified the need for a flat brushless DC motor for extra torque</li></ul>
-          </div>
-        </div>
       </div>
+      <div class="doc-no">PRJ.08</div>
     </div>
 
-    <!-- IET -->
-    <div class="index-entry" id="iet">
+    <p class="project-lede">
+      Self-directed work on a servo-actuated robotic arm and a 3D-printed planetary actuator, built as a proof of concept for future integration into a larger robotic system.
+    </p>
+
+    <div class="photo-grid">
+      <figure><img src="images/personal-arm-cad.jpg" alt="CAD render of a robotic arm" data-lightbox data-caption="Robotic arm, CAD render"><figcaption>Robotic arm, CAD render</figcaption></figure>
+      <figure><img src="images/personal-actuator-cad.jpg" alt="CAD render of the planetary actuator" data-lightbox data-caption="Planetary actuator, CAD render"><figcaption>Planetary actuator, CAD</figcaption></figure>
+      <figure><img src="images/personal-actuator-built.jpg" alt="3D-printed planetary actuator prototype" data-lightbox data-caption="Printed planetary actuator prototype"><figcaption>Printed prototype</figcaption></figure>
+    </div>
+
+    <div class="spec-block">
+      <div class="spec-col">
+        <h4>What</h4>
+        <ul>
+          <li>Servo-actuated robotic arm</li>
+          <li>Planetary robotic actuator, aimed at future integration into a larger system</li>
+        </ul>
+      </div>
+      <div class="spec-col">
+        <h4>How</h4>
+        <ul>
+          <li>All parts designed in Fusion 360, 3D printed</li>
+          <li>Combined with electronics and an Arduino for control</li>
+        </ul>
+      </div>
+      <div class="spec-col">
+        <h4>Results</h4>
+        <ul>
+          <li>Working prototype and proof of concept for the gearbox</li>
+          <li>Identified the need for a flat brushless DC motor for extra torque</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ IET ============ -->
+
+  <section class="project" id="iet">
+    <div class="project-head">
+      <div class="titles">
+        <h3>IET South Yorkshire Young Professional</h3>
+        <div class="role">Events Manager · Institution of Engineering and Technology</div>
+      </div>
       <div class="doc-no">PRJ.09</div>
-      <div class="thumb-stack">
-        <img src="images/iet-lecture.jpg" alt="Audience at an IET guest lecture" data-lightbox data-caption="Guest lecture audience">
-        <img src="images/iet-team.jpg" alt="IET committee team photo at Kelham Island Museum" data-lightbox data-caption="Committee at Kelham Island Museum">
-      </div>
-      <div class="body">
-        <h4>IET South Yorkshire Young Professional — Events Manager</h4>
-        <div class="role">Institution of Engineering and Technology</div>
-        <div class="mini-spec">
-          <div><span>What</span>
-            <ul><li>Co-founded the IET on Campus Society at the University of Sheffield</li><li>Organised events connecting students with industry professionals</li></ul>
-          </div>
-          <div><span>How</span>
-            <ul><li>Combined guest lecture and networking event with academic and industry speakers</li><li>Organised venue, catering and sponsorship</li></ul>
-          </div>
-          <div><span>Results</span>
-            <ul><li>60+ attendees at the first event</li><li>Following of 250+ students</li></ul>
-          </div>
-        </div>
-      </div>
     </div>
 
+    <p class="project-lede">
+      Co-founded the IET on Campus Society at the University of Sheffield, organising events that connect students with industry professionals and academics.
+    </p>
+
+    <div class="photo-grid">
+      <figure><img src="images/iet-lecture.jpg" alt="Audience at an IET guest lecture" data-lightbox data-caption="Guest lecture audience"><figcaption>Guest lecture audience</figcaption></figure>
+      <figure><img src="images/iet-presentation.jpg" alt="Speaker presenting at an IET event" data-lightbox data-caption="Presentation in progress"><figcaption>Presentation in progress</figcaption></figure>
+      <figure><img src="images/iet-team.jpg" alt="IET committee team photo at Kelham Island Museum" data-lightbox data-caption="Committee at Kelham Island Museum"><figcaption>Committee, Kelham Island Museum</figcaption></figure>
+    </div>
+
+    <div class="spec-block">
+      <div class="spec-col">
+        <h4>What</h4>
+        <ul>
+          <li>Co-founded the IET on Campus Society at the University of Sheffield</li>
+          <li>Organised events connecting students with industry professionals</li>
+        </ul>
+      </div>
+      <div class="spec-col">
+        <h4>How</h4>
+        <ul>
+          <li>Combined guest lecture and networking event with academic and industry speakers</li>
+          <li>Organised venue, catering and sponsorship</li>
+        </ul>
+      </div>
+      <div class="spec-col">
+        <h4>Results</h4>
+        <ul>
+          <li>60+ attendees at the first event</li>
+          <li>Following of 250+ students</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
 </main>
