@@ -35,7 +35,7 @@
     <div><strong>Based in</strong> Sheffield, UK</div>
     <div><strong>Studying</strong> MEng Aerospace Eng.</div>
     <div><strong>Email</strong> isaacfernyhough@gmail.com</div>
-    <div><strong>LinkedIn</strong> /in/isaac-fernyhough</div>
+    <div><strong>LinkedIn</strong> www.linkedin.com/in/isaac-fernyhough</div>
   </div>
 </section>
 
@@ -53,14 +53,14 @@
     </div>
 
     <p class="project-lede">
-      Tasked with designing and manufacturing a Vertical Take-Off and Landing (VTOL) Quadplane intended for reconnaissance in hazardous environments. As Avionics Flight Systems Lead, responsible for the electronics architecture, wiring, and flight testing — the aircraft flew successfully at a local gliding club under both manual and autonomous control.
+      Tasked with designing and manufacturing a Vertical Take-Off and Landing (VTOL) Quadplane intended for reconnaissance in hazardous environments, in a team of 6. As Avionics Flight Systems Lead, I was responsible for the electronics architecture, wiring and soldering. I also helped out with some mechanical design, using Fusion 360 to create the motor mounts, nose and tail mounts. I then 3D-printed them using my Bambu Lab P1S.
     </p>
 
     <div class="photo-grid cols-2">
-      <figure><img src="images/qp-hero-field.jpg" alt="VTOL Quadplane resting on a stone wall after a test flight" data-lightbox data-caption="Resting on a stone wall after a test flight"><figcaption>Post-flight, in the field</figcaption></figure>
-      <figure><img src="images/qp-wiring-board.jpg" alt="Avionics test board with motors, ESCs and flight controller wired up" data-lightbox data-caption="Avionics test board — motors, ESCs and flight controller wired ahead of integration"><figcaption>Avionics integration board</figcaption></figure>
-      <figure><img src="images/qp-team.jpg" alt="Team holding the assembled Quadplane wings and fuselage outdoors" data-lightbox data-caption="The build team with the assembled airframe"><figcaption>Build team, assembled airframe</figcaption></figure>
-      <figure><img src="images/qp-in-flight.jpg" alt="The Quadplane in flight over a grass field" data-lightbox data-caption="In flight during autonomous loiter testing"><figcaption>In-flight, autonomous loiter</figcaption></figure>
+      <figure><img src="images/qp-hero-field.jpg" alt="VTOL Quadplane resting on a stone wall after a test flight" data-lightbox data-caption="Resting on a stone wall after a test flight"><figcaption>First assembly</figcaption></figure>
+      <figure><img src="images/qp-wiring-board.jpg" alt="Avionics test board with motors, ESCs and flight controller wired up" data-lightbox data-caption="Avionics test board — motors, ESCs and flight controller wired ahead of integration"><figcaption>'Iron Bird' avionics mock-up</figcaption></figure>
+      <figure><img src="images/qp-team.jpg" alt="Team holding the assembled Quadplane wings and fuselage outdoors" data-lightbox data-caption="The build team with the assembled airframe"><figcaption>Team on flight day</figcaption></figure>
+      <figure><img src="images/qp-in-flight.jpg" alt="The Quadplane in flight over a grass field" data-lightbox data-caption="In flight during autonomous loiter testing"><figcaption>Take-off</figcaption></figure>
     </div>
 
     <div class="spec-block">
@@ -71,6 +71,7 @@
           <li>Flew the aircraft at a local gliding club under both manual and autonomous control</li>
           <li>Produced a technical report and poster presentation on the design process and flight performance</li>
         </ul>
+        
       </div>
       <div class="spec-col">
         <h4>How</h4>
@@ -86,7 +87,7 @@
         <h4>Results</h4>
         <ul>
           <li>Successful flight showing impressive stability across flight modes</li>
-          <li>Autonomous flight achieved, including hover, loiter and transition</li>
+          <li>Autonomous loiter and landing achieved, after manual take off and transition to forward flight</li>
           <li>Full recovery of flight telemetry, enabling in-depth analysis of flight path, battery health and stability</li>
         </ul>
       </div>
@@ -96,11 +97,11 @@
     <div class="diagram-row">
       <figure>
         <img src="images/qp-wiring-diagram.jpg" alt="Full avionics wiring diagram showing battery, flight controller, motors, servos and sensors" data-lightbox data-caption="Full avionics wiring diagram">
-        <figcaption>Avionics wiring diagram — battery, PDB, flight controller, telemetry, GPS, airspeed sensor, four VTOL motors, forward motor and control surfaces, mapped by connection.</figcaption>
+        <figcaption>Avionics wiring diagram — battery, PDB, flight controller, telemetry, GPS, airspeed sensor, four VTOL motors, forward motor and control surface servos.</figcaption>
       </figure>
       <figure>
         <img src="images/qp-cad-exploded.jpg" alt="Exploded CAD view of the airframe showing wings, fuselage and tail assembly" data-lightbox data-caption="Exploded assembly view of the airframe">
-        <figcaption>Exploded assembly view — wings, plywood fuselage former and tail unit, designed as a digital twin before manufacture.</figcaption>
+        <figcaption>Exploded assembly view — wings, plywood fuselage, nose cone, motor mounts and tail unit, designed as a digital twin before manufacture.</figcaption>
       </figure>
     </div>
 
@@ -110,18 +111,17 @@
         <source src="video/quadplane-flight.mp4" type="video/mp4">
         Your browser doesn't support embedded video — you can <a href="video/quadplane-flight.mp4">download the clip directly</a> instead.
       </video>
-      <p class="video-caption">Full test flight — pre-flight checks, onboard FPV footage through hover and transition, and an external tracking shot during loiter.</p>
     </div>
 
     <div class="subsection-label">Flight data analysis</div>
     <div class="data-grid">
       <figure>
         <img src="images/qp-plot-3d-track.jpg" alt="3D flight track plot showing the aircraft's loiter pattern coloured by time" data-lightbox data-caption="3D flight track, coloured by time">
-        <figcaption>3D flight track reconstructed from telemetry — showing the climb-out, repeated loiter pattern and final descent.</figcaption>
+        <figcaption>3D flight track reconstructed from telemetry.</figcaption>
       </figure>
       <figure>
         <img src="images/qp-plot-yaw-roll.jpg" alt="Yaw and roll versus time plots across hover, FBWA, loiter and land phases" data-lightbox data-caption="Yaw and roll across flight phases">
-        <figcaption>Yaw and roll through each flight phase — hover, fixed-wing transition, loiter and autonomous landing.</figcaption>
+        <figcaption>Yaw and roll through each flight phase — hover, fly by wire fixed-wing transition, autonomous loiter and landing.</figcaption>
       </figure>
       <figure>
         <img src="images/qp-plot-airspeed-altitude.jpg" alt="Airspeed and altitude versus time plots across flight phases" data-lightbox data-caption="Airspeed and altitude across flight phases">
@@ -129,7 +129,7 @@
       </figure>
       <figure>
         <img src="images/qp-plot-battery.jpg" alt="Battery current and percentage remaining versus time plots" data-lightbox data-caption="Battery current and charge remaining">
-        <figcaption>Battery current and charge remaining — the highest draw occurs during hover and transition, as expected.</figcaption>
+        <figcaption>Battery current and charge remaining — the highest draw occurs during hover, landing and transition, as expected.</figcaption>
       </figure>
     </div>
   </section>
@@ -181,7 +181,7 @@
 
     <div class="outcome-note">
       <span class="mark">Outcome —</span>
-      <span>An unforeseen mechanical failure in the aileron caused the drone to crash during final testing, and it did not make the competition. The airframe itself performed as designed up to that point.</span>
+      <span>An unforeseen mechanical failure in the aileron caused the drone to crash during final testing, and it did not make the competition.</span>
     </div>
   </section>
 
@@ -191,7 +191,7 @@
     <div class="project-head">
       <div class="titles">
         <h3>Quadcopter Drone</h3>
-        <div class="role">Integration Lead · Second-Year Group Project, University of Sheffield · Team of 6</div>
+        <div class="role">Integration Lead · Second-Year Group Project, University of Sheffield</div>
       </div>
       <div class="doc-no">PRJ.03</div>
     </div>
@@ -274,11 +274,6 @@
         </ul>
       </div>
     </div>
-
-    <div class="outcome-note">
-      <span class="mark">Outcome —</span>
-      <span>The onboard avionics failed during flight, so no telemetry was recovered — the result above is based on the visual flight and physical recovery of the rocket alone.</span>
-    </div>
   </section>
 
   <!-- ============ AUTONOMOUS ROBOT ============ -->
@@ -297,9 +292,9 @@
     </p>
 
     <div class="photo-grid">
-      <figure><img src="images/robot-annotated.jpg" alt="Annotated photo of the robot showing sensors and motors" data-lightbox data-caption="Robot with sensors and drivetrain labelled"><figcaption>Sensors and drivetrain, labelled</figcaption></figure>
+      <figure><img src="images/robot-annotated.jpg" alt="Annotated photo of the robot showing sensors and motors" data-lightbox data-caption="Robot with sensors and drivetrain labelled"><figcaption>Robot components</figcaption></figure>
       <figure><img src="images/robot-course.jpg" alt="The obstacle course used for the robot demonstration" data-lightbox data-caption="Obstacle course for the demonstration"><figcaption>Obstacle course, demonstration</figcaption></figure>
-      <figure><img src="images/robot-top.jpg" alt="Top-down view of the robot's electronics" data-lightbox data-caption="Electronics layout, top-down"><figcaption>Electronics, top-down</figcaption></figure>
+      <figure><img src="images/robot-top.jpg" alt="Top-down view of the robot's electronics" data-lightbox data-caption="Electronics layout, top-down"><figcaption>Robot in action</figcaption></figure>
     </div>
 
     <div class="spec-block">
@@ -338,13 +333,13 @@
     </div>
 
     <p class="project-lede">
-      A 2.5m wingspan VTOL drone concept for delivering medical supplies to remote areas, featuring a novel rotating payload release mechanism actuated by a single servo.
+      A 2.5m wingspan VTOL drone concept for delivering medical supplies to remote areas. I worked on a novel rotating payload release mechanism actuated by a single servo, after doing a training progra where I created a generatively designed quadcopter in Fusion 360.
     </p>
 
     <div class="photo-grid">
-      <figure><img src="images/kestrel-frame-cad.jpg" alt="CAD render of the Kestrel airframe" data-lightbox data-caption="Kestrel airframe, CAD render"><figcaption>Airframe, CAD render</figcaption></figure>
       <figure><img src="images/kestrel-payload-cad.jpg" alt="CAD render of the rotating payload release mechanism" data-lightbox data-caption="Rotating payload release mechanism"><figcaption>Payload release mechanism</figcaption></figure>
-      <figure><img src="images/kestrel-quad-cad.jpg" alt="CAD render of the small training-programme quadcopter" data-lightbox data-caption="Small quadcopter, designed as part of the training programme"><figcaption>Training-programme quadcopter</figcaption></figure>
+      <figure><img src="images/kestrel-frame-cad.jpg" alt="CAD render of the Kestrel airframe" data-lightbox data-caption="Kestrel airframe, CAD render"><figcaption>Training-programme quadcopter frame</figcaption></figure>      
+      <figure><img src="images/kestrel-quad-cad.jpg" alt="CAD render of the small training-programme quadcopter" data-lightbox data-caption="Small quadcopter, designed as part of the training programme"><figcaption>Training-programme quadcopter assembly</figcaption></figure>
     </div>
 
     <div class="spec-block">
